@@ -1,4 +1,4 @@
-function queue(){
+function Queue(){
     var res, rej, prevPromise;
     var promise = new Promise(function(resolve, reject){
        resolve(); 
